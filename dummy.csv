@@ -1,0 +1,4 @@
+student.firstName,student.lastName,student.birthdate,student.grade,pcontact.email,contacts.firstName,contacts.lastName,contacts.email,contacts.householdPhone
+John,Doe,01/01/2000,10,johndoe@test.com,Jane,Doe,janedoe@parent.com,123-456-7890
+John,Doe,01/01/2000,9,johndoe@test.com,Jim,Doe,jimdoe@parent.com,123-456-7891
+Jimmy,Roe,01/01/2000,11,jimmyroe@test.com,Janet,Roe,janetroe@parent.com,123-456-7898

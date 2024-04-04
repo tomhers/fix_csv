@@ -7,7 +7,6 @@ import csv
 import os
 import sys
 import datetime
-from turtle import update
 
 def generate_dummy_csv():
     # Generate a dummy CSV file for testing.
@@ -81,6 +80,8 @@ def main(input_file):
         writer.writerows(updated_rows)
 
     print('The updated CSV file has been saved to {}.'.format(output_file))
+    text_area.delete('1.0', tk.END)
+    text_area.insert(tk.END, 'The updated CSV file has been saved to {}.'.format(output_file))
 
 if __name__ == '__main__':
     # Get CSV file name from command line arguments.
