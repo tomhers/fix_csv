@@ -50,7 +50,7 @@ def open_file():
                 # First, update birthday format from MM/DD/YYYY to YYYY-MM-DD.
                 new_row = {}
                 birthday = row['student.birthdate']
-                birthday = datetime.datetime.strptime(birthday, '%m/%d/%Y').strftime('%Y-%m-%d')
+                #birthday = datetime.datetime.strptime(birthday, '%m/%d/%Y').strftime('%Y-%m-%d')
                 new_row['Student Birthday'] = birthday
                 new_row['Student First Name'] = row['student.firstName']
                 new_row['Student Last Name'] = row['student.lastName']
